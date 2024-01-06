@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, h2, p, ul, li, form {
+body, h1, h2, p, ul, li, form, img {
     margin: 0;
     padding: 0;
 }
@@ -7,6 +7,11 @@ body, h1, h2, p, ul, li, form {
 body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 header {
@@ -14,6 +19,7 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    width: 100%;
 }
 
 nav ul {
@@ -33,6 +39,7 @@ nav a {
 
 section {
     padding: 40px;
+    text-align: center;
 }
 
 section h2 {
@@ -43,6 +50,7 @@ section h2 {
 form label {
     display: block;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 form input[type="text"],
@@ -71,4 +79,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    width: 100%;
 }
