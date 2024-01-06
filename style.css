@@ -7,19 +7,14 @@ body, h1, h2, p, ul, li, form, img {
 body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    text-align: center; /* Center-align text within the body */
 }
 
 header {
-    background-color: #3acac0;
+    background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
-    width: 100%;
 }
 
 nav ul {
@@ -75,9 +70,8 @@ form button:hover {
 }
 
 footer {
-    background-color: #3acac0;
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
-    width: 100%;
 }
