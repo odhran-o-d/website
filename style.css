@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #1dd8d2;
     color: white;
     padding: 20px;
     text-align: center;
@@ -58,7 +58,7 @@ form textarea {
 }
 
 form button {
-    background-color: #333;
+    background-color: #1dd8d2;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -70,7 +70,7 @@ form button:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #1dd8d2;
     color: white;
     text-align: center;
     padding: 10px;
